@@ -3,10 +3,9 @@ export const PARTY = {
   age: 4,
   // 3 February 2027, 15:00
   date: new Date("2027-02-03T15:00:00+05:00"),
-  // TODO: paste the Google Maps link here
-  mapUrl: "",
+  mapUrl: "https://share.google/4bQlX6U21ory5SUu8",
   // Background music: YouTube video id
-  youtubeId: "jfKfPfyJRdk",
+  youtubeId: "ck_j5cPBCLQ",
   adminPin: "1317",
 };
 
@@ -73,7 +72,7 @@ export const T: Record<Lang, Dict> = {
     dateText: "2027-yil 3-fevral",
     timeText: "15:00 da",
     place: "Manzil",
-    placeText: "Sxovat savdo markazi, 3-qavat, bolalar maydonchasi",
+    placeText: "Guliston shahar, Saxovat savdo markazi, 3-etaj bo'lalar maydonchasi",
     mapBtn: "Xaritada ko'rish",
     mapSoon: "Xarita havolasi tez orada",
     gallery: "Oishaning suratlari",
@@ -114,7 +113,7 @@ export const T: Record<Lang, Dict> = {
     dateText: "3 февраля 2027 года",
     timeText: "в 15:00",
     place: "Адрес",
-    placeText: "ТЦ «Сховат», 3-й этаж, детская площадка",
+    placeText: "г. Гулистан, ТЦ «Сховат», 3-й этаж, детская площадка",
     mapBtn: "Смотреть на карте",
     mapSoon: "Ссылка на карту скоро появится",
     gallery: "Фотографии Оиши",
@@ -155,7 +154,7 @@ export const T: Record<Lang, Dict> = {
     dateText: "February 3, 2027",
     timeText: "at 3:00 PM",
     place: "Address",
-    placeText: "Sxovat shopping mall, 3rd floor, kids playground",
+    placeText: "Guliston city, Sxovat shopping mall, 3rd floor, kids playground",
     mapBtn: "View on map",
     mapSoon: "Map link coming soon",
     gallery: "Oisha's photos",
