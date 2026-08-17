@@ -6,7 +6,7 @@ export const PARTY = {
   // TODO: paste the Google Maps link here
   mapUrl: "",
   // Background music: YouTube video id
-  youtubeId: "V6P5tGeMYSY",
+  youtubeId: "jfKfPfyJRdk",
   adminPin: "1317",
 };
 
