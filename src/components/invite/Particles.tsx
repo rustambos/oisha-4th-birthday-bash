@@ -21,7 +21,7 @@ export function Particles({ count = 34 }: { count?: number }) {
         delay: -((i * 1.7) % 22),
         duration: 16 + ((i * 5) % 20),
         drift: ((i % 7) - 3) * 22,
-        kind: KINDS[i % 3],
+        kind: KINDS[i % 3]!,
         opacity: 0.35 + ((i % 5) * 0.12),
       })),
     [count],
