@@ -19,6 +19,12 @@
  */
 
 @theme inline {
+  --font-display: "Baloo 2", "Comic Sans MS", cursive;
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --color-gold: var(--gold);
+  --color-petal: var(--petal);
+  --color-confetti: var(--confetti);
+  --shadow-soft: 0 10px 30px -10px color-mix(in oklab, var(--primary) 35%, transparent);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
